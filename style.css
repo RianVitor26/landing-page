@@ -1,0 +1,31 @@
+.title h1{
+    margin: 0;
+    text-align: center;
+    background: slateblue;
+    padding: 5px;
+    font-size: x-large;
+}
+
+main{
+    background: cornflowerblue;
+    margin: 20px 100px;
+    background-image: url(ASSETS/bg\ nuven.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.subscribeSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 200px;
+    background: rgba(255, 255, 255, 0.469);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 0 10px 10px 0;
+    
+}
