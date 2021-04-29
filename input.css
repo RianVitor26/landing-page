@@ -1,0 +1,26 @@
+input, select{
+    padding:5px;
+    border-radius: 5px;
+    width: 180px;
+}
+
+select{
+    margin-top: 5px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    border-radius: 20px 10px 20px 10px;
+    cursor: pointer;
+    transition: all .5s ease-in;
+    border: none;
+    background: rgb(0, 0, 93);
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background: rgb(0, 0, 179);
+    border-radius: 10px 20px 10px 20px;
+    transition: all .5s ease-in;
+    letter-spacing: 1px;
+}
