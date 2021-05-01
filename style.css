@@ -45,17 +45,25 @@ main{
 legend{
     margin-bottom: 10px;
 }
+@keyframes Balance{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    80%{
+        transform: translateY(2px);
+    }
+}
 
 img{
-    transition: transform 3s;
-    display: block;
-    transform: rotate(-10deg);
+    animation-name: Balance;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-img:hover{
-    transform: rotate(20deg);
-    
-}
 
 picture{
     display:flex;
