@@ -1,7 +1,7 @@
 input, select{
     padding:5px;
     border-radius: 5px;
-    width: 180px;
+    width: 90%;
 }
 
 select{
@@ -16,6 +16,7 @@ input[type="submit"]{
     border: none;
     background: rgb(0, 0, 93);
     color: white;
+    width: 80%;
 }
 
 input[type="submit"]:hover{
