@@ -1,5 +1,5 @@
 @media only screen and (max-width: 768px){
-    main{
+    .c-general-container{
     display: flex;
     justify-content: flex-end;
     border-radius: 10px;
@@ -9,7 +9,7 @@
     margin: 20px auto;
     }
     
-    .subscribeSection{
+    .c-main{
         flex-wrap: wrap;
         flex-shrink: 0;
         flex-direction: row;
@@ -21,7 +21,7 @@
         border-radius: 0 10px 10px 0;
         color: white;
    }
-   .title h1{
+   .c-header__title{
        display: none;
    }
 
@@ -31,21 +31,21 @@
 
 }
 @media only screen and (max-width: 680px){
-    img {
+    .c-picture__image {
         width: 200px;
     }
-    picture {
+    .c-picture {
         justify-content: center;
         align-items: center;
     }
 
 }
 @media only screen and (max-width: 613px){
-    img{
+    .picture__image {
         display: none;
     }
 
-    .subscribeSection{
+    .c-main{
         display: flex;
         justify-content: flex-start;
     }

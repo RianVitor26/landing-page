@@ -3,24 +3,6 @@ body{
    font-family: sans-serif, Arial;
 }
 
-.c-main{
-   background: cornflowerblue;
-   background-image: url(ASSETS/bg\ nuven.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: bottom;
-   display: flex;
-   justify-content: flex-end;
-   border-radius: 10px;
-   box-shadow: 2px 2px 10px black;
-   overflow: hidden;
-   max-width: 700px;
-   max-height: 85vh;
-   margin: 50px auto;
-   animation-name: appear;
-   animation-duration: 1s;
-   animation-fill-mode: forwards;
-}
 
 @keyframes appear{
    to{
@@ -29,5 +11,18 @@ body{
 
    from{
       opacity: 0;
+   }
+}
+
+
+@keyframes Balance{
+   0%{
+       transform: translate(0px, 0px);
+   }
+   50%{
+       transform: translate(2.5px, 5px);
+   }
+   80%{
+       transform: translate(0.5px, 1px);
    }
 }
