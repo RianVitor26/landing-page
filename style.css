@@ -1,4 +1,4 @@
-.c-general-container{
+.l-general-container{
     background: cornflowerblue;
     background-image: url(ASSETS/bg\ nuven.jpg);
     background-repeat: no-repeat;
@@ -51,7 +51,7 @@
 }
 
 
-.c-main{
+.l-main{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -65,18 +65,18 @@
 }
 
 
-.c-main__text{
+.l-main__text{
     margin-bottom: 10px;
 }
 
 
-.c-main{
+.l-main{
     animation-name: appear;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
-.c-main .c-main__form{
+.l-main .l-main__form{
     animation-name: appear;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
