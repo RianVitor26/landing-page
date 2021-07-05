@@ -1,4 +1,4 @@
-.l-general-container{
+.general-container{
     background: cornflowerblue;
     background-image: url(ASSETS/bg\ nuven.jpg);
     background-repeat: no-repeat;
@@ -18,12 +18,12 @@
  }
 
 
-.c-header{
+.cabeçalho{
     width: 100%;
 }
 
 
-.c-header__title{
+.cabeçalho__title{
     animation-name: appear;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -35,7 +35,7 @@
 }
 
 
-.c-picture{
+.media{
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -43,7 +43,7 @@
     margin-bottom: 40px;
 }
 
-.c-picture__image--animation{
+.media__image--animation{
     animation-name: Balance;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -51,7 +51,7 @@
 }
 
 
-.l-main{
+.principal{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -68,12 +68,12 @@
 }
 
 
-.l-main__text{
+.principal__text{
     margin-bottom: 10px;
 }
 
 
-.l-main__form{
+.principal__form{
     animation-name: appear;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
