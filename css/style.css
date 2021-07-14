@@ -1,0 +1,92 @@
+.text-container{
+    width: 50vw;
+    display: flex;
+    align-self: center;
+}
+
+.text-container img{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 400px;
+}
+
+.principal{
+    width: 50vw;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    width: 65%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title{
+    padding: .7rem;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle{
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.452);
+    font-weight: 700;
+}
+
+form,
+label{
+    flex-direction: column;
+}
+
+label{
+    margin: .7rem;
+    align-items: flex-start;
+}
+
+form{
+    align-items: center;
+}
+
+input{
+    background: #f1f8e9;
+    border: none;
+    outline: none;
+    height: 25px;
+    border-radius: 6px;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+}
+
+span{
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    padding: .3rem;
+}
+
+
+
+
+.circle{
+    width: 100vw;
+    height: 100vh;
+    background: #01579b;
+    position: absolute;
+    top: 0;
+    clip-path: circle(60% at left 50%);
+    z-index: -1;
+}
+
+input[type="submit"]{
+    width: 40%;
+    height: 40px;
+    background: #01579b;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: var(--secudary-color);
+}
