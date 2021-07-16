@@ -1,0 +1,76 @@
+@media only screen and (max-width: 886px){
+    body{
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 754px){
+    .image-container{
+        display: none;
+        visibility: hidden;
+    }
+    body{
+        background-color: #01579b;
+    }
+    .register{
+        width: 100vw;
+    }
+
+    .input-container{
+        width: 100%;
+        align-items: center;
+    }
+    input{
+        width: 80%;
+    }
+
+    .input-container span{
+        display: flex;
+        margin-left: 10%;
+        align-self: flex-start !important;
+    }
+}
+
+@media only screen and (max-width: 754px){
+    .title{
+        font-size: 1.5rem;
+    }
+    .subtitle{
+        font-size: .7rem;
+    }
+
+    .input-container span{
+        font-size: .7rem;
+    }
+    input::placeholder{
+        font-size: .5rem;
+    }
+    input[type="submit"]{
+        font-size: .8rem;
+    }
+
+}
+
+@media only screen and (max-width: 613px){
+    .form-container{
+        margin: 10px 0;
+    }
+    input[type="submit"]{
+        width: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 427px){
+    input[type="submit"]{
+        font-size: .5rem;
+        margin-top: 2rem;
+    }
+    .form-container{
+        width: 100%;
+        margin: 0;
+    }
+
+}
+
+
