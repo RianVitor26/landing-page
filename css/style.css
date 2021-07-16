@@ -1,17 +1,18 @@
-.text-container{
+.image-container{
     width: 50vw;
     display: flex;
     align-self: center;
 }
 
-.text-container img{
+.image-container .image{
     width: 80%;
     margin: 0 auto;
     min-width: 400px;
 }
 
-.principal{
+.register{
     width: 50vw;
+    height: 100vh;
     text-align: center; 
     display: flex;
     justify-content: center;
@@ -21,6 +22,7 @@
     width: 65%;
     background-color: white;
     border-radius: 10px;
+    margin: 30px 0;
 }
 
 .title{
@@ -36,11 +38,11 @@
 }
 
 form,
-label{
+.input-container{
     flex-direction: column;
 }
 
-label{
+.input-container{
     margin: .7rem;
     align-items: flex-start;
 }
@@ -67,8 +69,6 @@ span{
 }
 
 
-
-
 .circle{
     width: 100vw;
     height: 100vh;
@@ -80,7 +80,7 @@ span{
 }
 
 input[type="submit"]{
-    width: 40%;
+    width: 30%;
     height: 40px;
     background: #01579b;
     margin: 1rem;
@@ -89,4 +89,9 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     background: var(--secudary-color);
+}
+
+input::placeholder{
+    color: var(--primary-color);
+    font-size: .7rem;
 }
