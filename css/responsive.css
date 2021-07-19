@@ -14,6 +14,7 @@
     }
     .register{
         width: 100vw;
+        height: 100;
     }
 
     .input-container{
@@ -31,32 +32,47 @@
     }
 }
 
-@media only screen and (max-width: 754px){
+@media only screen and (max-width: 753px){
     .title{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .subtitle{
-        font-size: .7rem;
+        font-size: 1rem;
     }
 
     .input-container span{
-        font-size: .7rem;
+        font-size: 1rem;
     }
+
+    .input-container{
+        margin: 1rem;
+    }
+
     input::placeholder{
-        font-size: .5rem;
+        font-size: .8rem;
     }
     input[type="submit"]{
         font-size: .8rem;
+        margin-top: 40px;
     }
 
 }
 
 @media only screen and (max-width: 613px){
     .form-container{
-        margin: 10px 0;
+        margin: 0;
     }
+    .title{
+        margin: 20px;
+    }
+
+    .input-container{
+        margin: 1rem;
+    }
+
     input[type="submit"]{
         width: 25%;
+        margin-top: 30px;
     }
 
 }
