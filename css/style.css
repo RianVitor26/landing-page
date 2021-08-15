@@ -47,7 +47,7 @@
     padding: .7rem;
     font-size: 2rem;
     margin: 0;
-    color: rgba(0, 0, 0, 0.829);
+    color: black;
 }
 
 .subtitle{
@@ -72,26 +72,26 @@ form,
 
 span{
     font-weight: 800;
-    color: rgb(0, 0, 0);
+    color: black;
     padding: .3rem;
 }
 
 input{
-    background: #f1f8e9;
+    background: #ebebeb;
     border: none;
     outline: none;
-    height: 25px;
+    height: 30px;
     border-radius: 6px;
     padding: 10px;
-    color: black;
+    color: rgba(0, 0, 0, 0.8);
     font-weight: 700;
+    font-size: .8rem;
 }
 
 input[type="submit"]{
     width: 30%;
     height: 40px;
     background: var(--primary-color);
-    margin: 1rem;
     cursor: pointer;
     transition: all .5s ease;
 }
@@ -105,5 +105,6 @@ input[type="submit"]:hover{
 
 input::placeholder{
     color: rgba(0, 0, 0, 0.459);
-    font-size: .7rem;
+    font-size: .8rem;
+    font-weight: 900;
 }
