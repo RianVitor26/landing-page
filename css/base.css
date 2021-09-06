@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 :root{
-   --primary-color: #8c9eff;
-   --secudary-color: #536dfe;
-   --terciary-color: #3d5afe;
+   --primary-color: #5870cb;
+   --secudary-color: #8c9eff;   ;
+   --terciary-color: #dd24ee;
 }
 
 hmtl{
@@ -12,7 +12,7 @@ hmtl{
 }
 
 body{
-   background: var(--terciary-color);
+   background: var(--primary-color);
    font-family: poppins, sans-serif;
 }
 
