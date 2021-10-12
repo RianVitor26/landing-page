@@ -1,8 +1,8 @@
-# landing page
+# Landing page
 
 [👀 Ver a página](https://rianvitor26.github.io/landing-page/)
 
-### Desktop
+### 💻 Desktop
 
 ![img](https://user-images.githubusercontent.com/77061521/136901876-45d89961-dad8-4a89-b5ed-615ff6c18735.png)
 
@@ -16,7 +16,7 @@
 * JavaScript
 
 ### Imagens utilizadas 
-[☁️ Acesse o drive com as imagens](https://drive.google.com/drive/folder...)
+☁️ <a target="_blank" href="https://drive.google.com/drive/folders/1mdjzWjYMOVOmwUVRw5ifdC1YbyQfcqNL">Acesse o drive para ver as imagens</a>
 
 ### Finalidade do projeto
 
