@@ -1,5 +1,7 @@
 # Landing page
 
+## Em desenvolvimento...
+
 [👀 Ver a página](https://rianvitor26.github.io/landing-page/)
 
 ### 💻 Desktop
