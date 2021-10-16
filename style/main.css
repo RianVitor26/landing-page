@@ -3,67 +3,66 @@
     align-items: center;
 }
 
+.starbucks-logo{
+    width: 10vw;
+}
+
 .items-nav li{
     list-style: none;
     margin-right: 40px;
 }
 
 .items-nav a{
-    text-decoration: none;
+    text-decoration: none;  
     color: rgb(44, 44, 44);
-    font-size: 1.8rem;
     font-weight: 900;
+    font-size: 1.5vw;
 }
 
 .items-nav a:hover{
     color: black;
 }
 
-.wrapper{
-    height: 100vh;
-    height: 100%;
-}
-
 .content-wrapper{
-    width: 50vw;
+    width: 60vw;
 }
 
 .content-wrapper .title{
-    font-size: 6rem;
-    margin-top: 100px;
+    font-size: 5vw;
+    margin-top: 8vh;
 }
 
 .content-wrapper .subtitle{
-    font-size: 6rem;
+    font-size: 5vw;
 }
 
 .content-wrapper .subtitle-bold{
     font-weight: 800;
     font-family: sans-serif;
-    font-size: 7rem;
     color: #1b5e20;
+    font-size: 5.5vw;
 }
 
 .content-wrapper .description{
-    font-size: 1.7rem;
-    font-family: sans-serif;
+    font-weight: 600;
     letter-spacing: 1px;
-    line-height: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
+    font-size: 1.4vw;
+    line-height: 4vh;
 }
 
 .button-more{
     font-family: sans-serif;
-    font-weight: 600;
-    height: 40px;
     background-color: #1b5e20;
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 10px;
-    letter-spacing: 1px;
+    padding: 1vw;
     cursor: pointer;
     transition: all 0.7 ease;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
 }
 
 .button-more:hover{
@@ -72,10 +71,16 @@
 }
 
 .starbucks-wrapper{
-    width: 50vw;
+    width: 40vw;
     justify-content: center;
+    align-items: center;
     height: 70vh;
     display: none;
+} 
+
+.toggle-starbucks-wrapper li a img{
+    width: 5vw;
+    height: 15vh;
 }
 
 .starbuck-green.active{
