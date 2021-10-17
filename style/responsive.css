@@ -1,6 +1,64 @@
-@media only screen and (max-width: 686px){
+@media only screen and (max-width: 425px){ 
+    body{
+        margin: 0;
+    }
+    
+    .navigation-space{
+        display: none;
+        appearance: none;
+    }
+    .wrapper{
+        display: block;
+        margin: 0 10px 0 10px;
+    }
+
+    .content-wrapper{
+        width: 100vw;
+        text-align: center;
+    }
+
+    .content-wrapper .title{
+        font-size: 26px;
+    }
+
+    .content-wrapper .subtitle{
+        font-size: 26px;
+    }
+
+    .content-wrapper .description{
+        font-size: 12px;
+    }
+
+    .content-wrapper .subtitle-bold{
+        font-size: 26px;
+    }
+
+    .button-more{
+        width: 40px;
+        height: 20px;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
     .starbucks-image{
-        width: 60%;
-        height: 80%;
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .starbucks-wrapper{
+        margin: 0 auto;
+    }
+
+    .circle{  
+        clip-path: circle(60%  at bottom);
+    }
+
+    .toggle-starbucks-wrapper{
+        flex-direction: column;
+        left: 90%;
+    }
+
+    .toggle-starbucks-wrapper li a img{
+        width: 40px;
     }
 }
