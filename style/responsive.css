@@ -1,5 +1,5 @@
 @media only screen and (max-width: 425px){
-    
+
 }
 
 
@@ -72,5 +72,16 @@
 
     .toggle-starbucks-wrapper li a img{
         width: 40px;
+    }
+
+    .social-media-wrapper{
+        top: 95%;
+        right: 70%;
+        flex-direction: row;
+    }
+
+    .social-media-wrapper img{
+        width: 30px;
+        height: 30px;
     }
 }
