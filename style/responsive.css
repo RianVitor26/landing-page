@@ -1,5 +1,66 @@
-@media only screen and (max-width: 425px){
+/* Tablet */
+@media only screen and (max-width: 767px) and (min-width: 426px) {
+   .wrapper{
+       flex-wrap: wrap;
+       justify-content: center;
+   }
 
+   .navigation-space{
+    display: none;
+    appearance: none;
+    }
+
+    .content-wrapper .title{
+        font-size: 6vw;
+        margin: 0;
+        text-align: center;
+    }
+
+    .content-wrapper .subtitle{
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .content-wrapper .description{
+        font-size: 2vw;
+    }
+
+    .content-wrapper .subtitle-bold{
+        font-size: 7vw;
+    }
+
+    .button-more{   
+        height: 30px;
+        justify-content: center;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .starbucks-image{
+        height: 80%;
+        width: 100px
+    }
+
+    .starbucks-wrapper{
+        align-items: flex-end;
+        width: 50vw;
+        max-height: 200px;
+        align-items: flex-start;
+    }
+
+    .circle{
+        clip-path: polygon(14% 69%, 88% 69%, 100% 100%, 0% 100%);
+    }
+
+    .toggle-starbucks-wrapper li a img{
+        height: 50px;
+        width: 40px;
+    }
+
+    .social-media-wrapper img{
+        width: 40px;
+        height: 40px;
+    }
 }
 
 
@@ -19,20 +80,23 @@
     }
 
     .content-wrapper{
-        width: 100vw;
+        width: 100%;
         text-align: center;
     }
 
     .content-wrapper .title{
         font-size: 10vw;
+        text-align: center;
     }
 
     .content-wrapper .subtitle{
         font-size: 10vw;
+        text-align: center;
     }
 
     .content-wrapper .description{
-        font-size: 3vw;
+        font-size: 3.5vw;
+
     }
 
     .content-wrapper .subtitle-bold{
@@ -40,10 +104,10 @@
     }
 
     .button-more{   
-        height: 20px;
+        height: 30px;
         justify-content: center;
         margin-left: 20px;
-        font-size: 7px;
+        font-size: 10px;
         padding: 10px;
     }
 
@@ -54,8 +118,8 @@
 
     .starbucks-wrapper{
         margin: 0 auto;
-        max-height: 250px;
-    }   
+        max-height: 200px;
+    }  
 
     .circle{  
         clip-path: circle(50%  at bottom);
@@ -64,6 +128,7 @@
     .toggle-starbucks-wrapper{
         flex-direction: column;
         left: 90%;
+        top: 70%;
     }
 
     .toggle-starbucks-wrapper li {
@@ -72,6 +137,7 @@
 
     .toggle-starbucks-wrapper li a img{
         width: 40px;
+        height: 50px;
     }
 
     .social-media-wrapper{
@@ -81,7 +147,10 @@
     }
 
     .social-media-wrapper img{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 }
+
+
+
