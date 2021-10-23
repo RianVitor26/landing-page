@@ -27,4 +27,6 @@
 body{
     background: var(--background);
     margin: 40px 60px 0 60px;
+    animation-name: fadeIn;
+    animation-duration: 1s;
 }

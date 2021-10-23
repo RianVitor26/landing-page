@@ -30,10 +30,14 @@
 .content-wrapper .title{
     font-size: 5vw;
     margin-top: 8vh;
+    animation: fadeInLeft;
+    animation-duration: 1.5s;
 }
 
 .content-wrapper .subtitle{
     font-size: 5vw;
+    animation: slideInDown;
+    animation-duration: 2s;
 }
 
 .content-wrapper .subtitle-bold{
@@ -64,6 +68,9 @@
     font-size: 1vw;
     display: flex;
     align-items: center;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 5s;
 }
 
 .button-more:hover{
@@ -141,6 +148,8 @@
 }
 
 .toggle-starbucks-wrapper img{
+    animation: flipInY;
+    animation-duration: 2.5s;
     width: 60px;
     height: 100px;
     transition: all .5s ease;
