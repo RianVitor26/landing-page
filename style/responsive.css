@@ -103,17 +103,17 @@
     }
 
     .wrapper{
-        margin: 0 10px;
+        margin: 0 20px;
     }
 
     .content-wrapper .title{
-        font-size: 6vw;
+        font-size: 6.5vw;
     }
     .content-wrapper .subtitle{
-        font-size: 6vw;
+        font-size: 6.5vw;
     }
     .content-wrapper .subtitle-bold{
-        font-size: 7vw;
+        font-size: 7.5vw;
     }
     .content-wrapper .description{
         font-size: 2vw;
@@ -131,25 +131,28 @@
 @media only screen and (max-width: 567px){
     
     .starbucks-logo{
-        width: 15vw;
+        width: 16vw;
     }
 
     .wrapper{
         flex-direction: column;
-        margin: 0 20px;
+        margin: 2px;
     }
 
     .content-wrapper{
         width: 100%;
         text-align: center;
+        max-height: 300px;
     }
 
     .content-wrapper .title{
         margin: 0;
+        font-size: 8vw;
     }
 
     .content-wrapper .description{
-        font-size: 10px;
+        font-size: clamp(10px, 11px, 12px);
+        margin: 0;
     }
 
     .starbucks-wrapper{
