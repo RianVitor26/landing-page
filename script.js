@@ -25,3 +25,4 @@ function AlternarGreen() {
     starbuckGreen.classList.add("active")
 }
 btnStarbuckGreen.addEventListener("click", AlternarGreen)
+
