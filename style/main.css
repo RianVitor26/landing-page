@@ -1,6 +1,7 @@
 .navigation-space{
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .starbucks-logo{

@@ -1,11 +1,49 @@
 /* Tablet */
 @media only screen and (max-width: 767px){
+
+    body{
+        margin: 0;  
+    }
+
+    .navigation-space{
+        height: 80px;
+        padding: 0 10px;
+    }
+
     .menu-mobile{
         display: block;
     }
 
+    .navigation-space.active .items-nav{
+        display: flex;
+        transition: all .3s ease;
+        height: calc(100vh - 80px);  
+        visibility: visible;
+    }
+
     .items-nav{
-        display: none;
+        position: absolute;
+        width: 100%;
+        height: 0;
+        top: 100%;  
+        right: 0;
+        background-color: #1b5e1fee;
+        z-index: 1000;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transition: all .3s ease-in-out;
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .items-nav a{
+        font-size: 16px;
+        color: white;
+    }
+
+    .items-nav li{
+        margin: 0;
     }
 
     .starbucks-image{
@@ -25,6 +63,9 @@
         height: 70px;
     }
 
+    .wrapper{
+        margin: 0 10px;
+    }
 
     .content-wrapper .title{
         font-size: 6vw;
@@ -40,8 +81,67 @@
     }
 
     .button-more{
-        font-size: 1.7vw;
+        font-size: 1.8vw;
         padding: 10px;
+    }
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 567px){
+    
+    .starbucks-logo{
+        width: 15vw;
+    }
+
+    .wrapper{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .content-wrapper{
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-wrapper .title{
+        margin: 0;
+    }
+
+    .content-wrapper .description{
+        font-size: 10px;
+    }
+
+    .starbucks-wrapper{
+        max-height: 45vh;
+        width: 100%;
+    }
+
+    .starbucks-image{
+        text-align: center;
+        width: 200px;
+    }
+
+    .circle{
+        clip-path: circle(50% at bottom);
+    }
+
+    .toggle-starbucks-wrapper{
+        flex-direction: column;
+        left: 90%;
+    }
+
+    .toggle-starbucks-wrapper li a img{
+        width: 30px;
+    }
+
+    .social-media-wrapper{
+       right: 70%;
+       top: 90%;
+       height: 30px;
+       transform: translate(0, 0);
+       flex-direction: row;
     }
 }
 

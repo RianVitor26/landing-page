@@ -26,3 +26,15 @@ function AlternarGreen() {
 }
 btnStarbuckGreen.addEventListener("click", AlternarGreen)
 
+
+
+const btnMobile = document.querySelector('.menu-mobile')
+const nav = document.querySelector('.navigation-space')
+
+function toggleMenu() {
+    nav.classList.toggle('active')
+}
+
+btnMobile.addEventListener("click", toggleMenu)
+
+
