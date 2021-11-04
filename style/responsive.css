@@ -99,7 +99,7 @@
     }
 
     .toggle-starbucks-wrapper li a img{
-        height: 70px;
+        height: 40px;
     }
 
     .wrapper{
@@ -122,6 +122,7 @@
     .button-more{
         font-size: 1.8vw;
         padding: 10px;
+        margin-left: 20px;
     }
 }
 
@@ -156,7 +157,7 @@
     }
 
     .starbucks-wrapper{
-        max-height: 45vh;
+        max-height: 40vh;
         width: 100%;
     }
 
@@ -181,9 +182,12 @@
     .social-media-wrapper{
        right: 70%;
        top: 90%;
-       height: 30px;
        transform: translate(0, 0);
        flex-direction: row;
+    }
+
+    .social-media-wrapper .social-media-item a img{
+        height: 25px;
     }
 }
 
