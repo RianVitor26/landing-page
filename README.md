@@ -5,9 +5,9 @@
 ### 💻 Desktop
 ![Captura de tela 2021-10-28 041310](https://user-images.githubusercontent.com/77061521/139205554-876f6c7c-9a05-434e-90eb-8cf056704748.png)
 ### 📱 Mobile
-![Captura de tela 2021-10-28 041353](https://user-images.githubusercontent.com/77061521/139205604-3e7eb6d1-7c61-4305-acdc-0680becd6659.png)
+![Captura de tela 2021-11-07 031743](https://user-images.githubusercontent.com/77061521/140634629-2ab91a48-efb3-4ced-9026-8db257e0300e.png)
 
-### 🗺️ Guia  
+### 🗺️ Guia do design
 [Online tutotrials](https://www.youtube.com/watch?v=91Q6RvKvd7o&list=LL&index=1)
 
 ### Tecnologias utilizadas
