@@ -3,51 +3,42 @@
     align-items: center;
     position: relative;
 }
-
 .starbucks-logo{
     width: 10vw;
 }
-
 .items-nav li{
     list-style: none;
     margin-right: 40px;
 }
-
 .items-nav a{
     text-decoration: none;  
     color: rgb(44, 44, 44);
     font-weight: 900;
     font-size: 1.5vw;
 }
-
 .items-nav a:hover{
     color: black;
 }
-
 .content-wrapper{
     width: 60vw;
 }
-
 .content-wrapper .title{
     font-size: 5vw;
     margin-top: 8vh;
     animation: fadeInLeft;
     animation-duration: 1.5s;
 }
-
 .content-wrapper .subtitle{
     font-size: 5vw;
     animation: slideInDown;
     animation-duration: 2s;
 }
-
 .content-wrapper .subtitle-bold{
     font-weight: 800;
     font-family: sans-serif;
     color: #1b5e20;
     font-size: 5.5vw;
 }
-
 .content-wrapper .description{
     font-weight: 600;
     letter-spacing: 1px;
@@ -55,7 +46,6 @@
     font-size: 1.4vw;
     line-height: 4vh;
 }
-
 .button-more{
     font-family: sans-serif;
     font-weight: 800;
@@ -73,12 +63,10 @@
     animation-duration: 1s;
     animation-delay: 5s;
 }
-
 .button-more:hover{
     background: #2e7d32;
     transition: all 0.7 ease;
 }
-
 .starbucks-wrapper{
     width: 40vw;
     justify-content: center;
@@ -86,42 +74,32 @@
     height: 70vh;
     display: none;
 } 
-
 .toggle-starbucks-wrapper li a img{
     width: 5vw;
     height: 15vh;
 }
-
 .starbuck-green.active{
         display: flex;  
 }
-
 .starbuck-green.active .circle{
     background: linear-gradient(45deg, #2e7d32 60%, #66bb6a 80%);   
 }
 .starbuck-pink.active{
         display: flex;  
 }
-
 .starbuck-pink.active .circle{
     background: linear-gradient(45deg, #f06292 60%, #f48fb1 80%);   
 }
-
-
 .starbuck-purple.active{
         display: flex;  
 }
-
 .starbuck-purple.active .circle{
     background: linear-gradient(45deg, #d500f9 60%, #ea80fc 80%);   
 }
-
-
 .starbucks-image{
     width: 80%;
     height: 100%;
 }
-
 .circle{
     position: absolute;
     height: 100%;
@@ -132,9 +110,6 @@
     clip-path: circle(50%  at right 110%);
     z-index: -1;
 }
-
-
-
 .toggle-starbucks-wrapper{
     align-items: center;
     position: absolute;
@@ -142,12 +117,10 @@
     left: 50%;
     transform: translate(-50%, 0);
 }
-
 .toggle-starbucks-wrapper li{
     list-style-type: none;
     margin: 15px;
 }
-
 .toggle-starbucks-wrapper img{
     animation: flipInY;
     animation-duration: 2.5s;
@@ -155,13 +128,10 @@
     height: 100px;
     transition: all .5s ease;
 }
-
 .toggle-starbucks-wrapper img:hover{
     transform: translate(0, -10px);
     transition: all .5s ease;
 }
-
-
 .social-media-wrapper{
     position: absolute;
     top: 50%;
@@ -170,7 +140,6 @@
     flex-direction: column;
     align-items: center;
 }
-
 .social-media-wrapper img{
     width: 50px;
     height: 50px;
